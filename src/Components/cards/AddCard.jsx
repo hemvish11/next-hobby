@@ -12,7 +12,7 @@ function AddCard() {
 
                     <div className='flex gap-2 items-center justify-center my-2 lg:my-3'>
 
-                        <Image height="42px" width="42px" src='/AddLogo.svg' alt='add-logo' />
+                        <Image height={42} width={42} src='/AddLogo.svg' alt='add-logo' />
 
                         <h2 className='font-bold text-[18px]/[] lg:text-[24px]/[36px] '>Add your own</h2>
 

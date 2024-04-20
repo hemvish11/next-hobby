@@ -9,23 +9,23 @@ export default function Footer() {
                         <h1 className="text-[12px]/[18px] lg:text-[14px]/[18px] font-bold">Hobbycue</h1>
                         <Image height={24} width={24} className="cursor-pointer md:hidden" src="/arrows/uparrow.svg" alt="uparrow" />
                     </div>
-                    <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">About Us</p>
-                    <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Our Services</p>
-                    <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Work with Us</p>
-                    <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">FAQ</p>
-                    <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Contact Us</p>
+                    <p className="text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">About Us</p>
+                    <p className="text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Our Services</p>
+                    <p className="text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Work with Us</p>
+                    <p className="text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">FAQ</p>
+                    <p className="text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Contact Us</p>
                 </div>
                 <div className="p-8 flex flex-col gap-4 w-full md:w-1/2 lg:w-1/5">
                     <div className="flex items-center justify-between">
                         <h1 className="text-[12px]/[18px] lg:text-[14px]/[18px] font-bold">How DO I</h1>
                         <Image height={24} width={24} className="cursor-pointer md:hidden" src="/arrows/uparrow.svg" alt="uparrow" />
                     </div>
-                    <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Sign Up</p>
-                    <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Add a Listing</p>
-                    <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Claim Listing</p>
-                    <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Post a Query</p>
-                    <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Add a Blog Post</p>
-                    <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Other Queries</p>
+                    <p className="text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Sign Up</p>
+                    <p className="text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Add a Listing</p>
+                    <p className="text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Claim Listing</p>
+                    <p className="text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Post a Query</p>
+                    <p className="text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Add a Blog Post</p>
+                    <p className="text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Other Queries</p>
 
                 </div>
                 <div className="p-8 flex flex-col gap-4 w-full md:w-1/2 lg:w-1/5">
@@ -33,10 +33,10 @@ export default function Footer() {
                         <h1 className="text-[12px]/[18px] lg:text-[14px]/[18px] font-bold">Quick Links</h1>
                         <Image height={24} width={24} className="cursor-pointer md:hidden" src="/arrows/uparrow.svg" alt="uparrow" />
                     </div>
-                    <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Listings</p>
-                    <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Blog Posts</p>
-                    <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Shop / Store</p>
-                    <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Community</p>
+                    <p className="text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Listings</p>
+                    <p className="text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Blog Posts</p>
+                    <p className="text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Shop / Store</p>
+                    <p className="text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Community</p>
                 </div>
                 <div className="p-8 flex flex-col gap-4 w-full md:w-1/2 lg:w-2/5">
 
