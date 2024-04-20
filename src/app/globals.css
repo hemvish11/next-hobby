@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.poppins{
+    font-family: "Poppins";
+}
+
+.introduction {
+    background-color: #f7f5f9;
+    width: 100%;
+}
+
+.hamburger {
+    border: none;
+}
+
+
+.divider-container {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.divider {
+    height: 2px;
+    background-color: #ccc;
+    flex-grow: 1;
+}
+
+.divider-text {
+    margin: 0 1rem;
+    font-weight: bold;
+    color: #111;
+}
+
+.form-checks .checkbox {
+    width: 16px;
+    height: 16px;
+    border-color: #8064a2;
+}
+
+
+/* -------------------------hover--------------------------- */
+.customHover:hover{
+    background-color: #009900;
+}
+
+
+@media (max-width: 576px) {
+    .min-width {
+        min-width: 80%;
+        display: inline-block;
+    }
+}
+
+@media (min-width: 576px) {
+    .min-width {
+        min-width: 80%;
+        display: inline-block;
+    }
+}
+/* @media (min-width: 1024px){
+    .addBackground{
+        width: "840px";
+        height : "542px";
+        margin-top: "20px";
+    }
+} */
+
+
+.buttonIconGoogle {
+    position: relative;
+    right: 80px;
+    bottom: 2px;
+}
+
+.buttonIconFB {
+    position: relative;
+    right: 71px;
+    bottom: 2px;
+}
+
+
+/* ----------------------------------------colors or sign in active button---------starts */
+
+.text-custom-color {
+    text-decoration: underline;
+    text-decoration-thickness: 2.4px;
+    text-underline-offset: 10px;
+    color: #8064a2;
+}
+
+.text-gray-color {
+    text-decoration: none;
+    color: #939ca3;
+}
+
+/* ----------------------------------------colors or sign in active button---------ends*/
+
+
+.terms p {
+    color: #939ca3;
+    font-size: 12px;
+}
+
+.terms span {
+    color: #08090a;
+}
+
+
+
+
+/* --------------------------------Strength meter starts----------------------------------------- */
+.password-meter {
+    display: flex;
+    height: 5px;
+    margin-top: 10px;
+}
+
+.meter-section {
+    flex: 1;
+    /* background-color: white; */
+    /* background-color: #ebedf0; */
+}
+
+.weak {
+    background-color: #ff4d4d;
+}
+
+.medium {
+    background-color: #ffd633;
+}
+
+.strong {
+    background-color: #00b300;
+}
+
+.very-strong {
+    background-color: #009900;
+}
+
+.bars {
+    opacity: 0;
+}
+
+
+/* --------------------------------Strength meter ends----------------------------------------- */
+
+
+
+button .text {
+    align-self: flex-end;
+}
+
+.purple-text {
+    color: #8064a2;
+}
