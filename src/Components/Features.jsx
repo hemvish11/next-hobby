@@ -6,8 +6,8 @@ export default function Features() {
     <div className='my-14 lg:mx-12 flex justify-center items-center flex-wrap'>
       {Cards.map((item, index) => {
         return (
-          <div className='lg:w-1/2'>
-            <Card key={index} item={item} />
+          <div className='lg:w-1/2' key={index}>
+            <Card item={item} />
           </div>
         )
       })}

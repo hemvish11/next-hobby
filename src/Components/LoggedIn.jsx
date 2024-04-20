@@ -16,10 +16,10 @@ function LoggedIn() {
 
                 <div className='flex flex-wrap lg:h-[380px] justify-center items-center gap-10 w-[90%] md:w-[100%]'>
 
-                    {Cards.map((item,index) => {
+                    {Cards.map((item, index) => {
                         return (
-                            <div className='flex justify-center items-center md:w-1/2 max-w-[312px] max-h-[142px]'>
-                                <CardLoggedIn key={index} item={item} />
+                            <div className='flex justify-center items-center md:w-1/2 max-w-[312px] max-h-[142px] ' key={index}>
+                                <CardLoggedIn item={item} />
                             </div>
                         )
                     })}
