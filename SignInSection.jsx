@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { FaEyeSlash, FaEye, FaLock } from 'react-icons/fa';
-import GoogleFB from './GoogleFB';
+import GoogleFB from './src/Components/GoogleFB';
 
 const SignInSection = ({ signInOut }) => {
 

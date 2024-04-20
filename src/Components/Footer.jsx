@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
     return (
         <div>
@@ -5,7 +7,7 @@ export default function Footer() {
                 <div className="p-8 flex flex-col gap-4 w-full md:w-1/2 lg:w-1/5">
                     <div className="flex items-center justify-between">
                         <h1 className="text-[12px]/[18px] lg:text-[14px]/[18px] font-bold">Hobbycue</h1>
-                        <img className="cursor-pointer md:hidden" src="/arrows/uparrow.svg" alt="uparrow" />
+                        <Image height={24} width={24} className="cursor-pointer md:hidden" src="/arrows/uparrow.svg" alt="uparrow" />
                     </div>
                     <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">About Us</p>
                     <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Our Services</p>
@@ -16,7 +18,7 @@ export default function Footer() {
                 <div className="p-8 flex flex-col gap-4 w-full md:w-1/2 lg:w-1/5">
                     <div className="flex items-center justify-between">
                         <h1 className="text-[12px]/[18px] lg:text-[14px]/[18px] font-bold">How DO I</h1>
-                        <img className="cursor-pointer md:hidden" src="/arrows/uparrow.svg" alt="uparrow" />
+                        <Image height={24} width={24} className="cursor-pointer md:hidden" src="/arrows/uparrow.svg" alt="uparrow" />
                     </div>
                     <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Sign Up</p>
                     <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Add a Listing</p>
@@ -29,7 +31,7 @@ export default function Footer() {
                 <div className="p-8 flex flex-col gap-4 w-full md:w-1/2 lg:w-1/5">
                     <div className="flex items-center justify-between">
                         <h1 className="text-[12px]/[18px] lg:text-[14px]/[18px] font-bold">Quick Links</h1>
-                        <img className="cursor-pointer md:hidden" src="/arrows/uparrow.svg" alt="uparrow" />
+                        <Image height={24} width={24} className="cursor-pointer md:hidden" src="/arrows/uparrow.svg" alt="uparrow" />
                     </div>
                     <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Listings</p>
                     <p className="text-[9px]/[18px] md:text-[11.5px]/[18px] lg:text-[14px]/[18px] text-[#6d747a] cursor-pointer hover:text-gray-700">Blog Posts</p>
@@ -41,14 +43,14 @@ export default function Footer() {
                     <div>
                         <h1 className="text-[12px]/[18px] lg:text-[14px]/[18px] font-bold">Social Media</h1>
                         <div className="flex justify-between my-5">
-                            <img className="cursor-pointer" width="32px" src="/icons/fb.svg" alt="" />
-                            <img className="cursor-pointer" width="32px" src="/icons/twitter.svg" alt="" />
-                            <img className="cursor-pointer" width="32px" src="/icons/insta.svg" alt="insta" />
-                            <img className="cursor-pointer" width="32px" src="/icons/pinterest.svg" alt="pinterest" />
-                            <img className="cursor-pointer" width="32px" src="/icons/gplus.svg" alt="gplus" />
-                            <img className="cursor-pointer" width="32px" src="/icons/yt.svg" alt="" />
-                            <img className="cursor-pointer" width="32px" src="/icons/telegram.svg" alt="" />
-                            <img className="cursor-pointer" width="32px" src="/icons/sms.svg" alt="" />
+                            <Image height={32} width={32} className="cursor-pointer" src="/icons/fb.svg" alt="" />
+                            <Image height={32} width={32} className="cursor-pointer" src="/icons/twitter.svg" alt="" />
+                            <Image height={32} width={32} className="cursor-pointer" src="/icons/insta.svg" alt="insta" />
+                            <Image height={32} width={32} className="cursor-pointer" src="/icons/pinterest.svg" alt="pinterest" />
+                            <Image height={32} width={32} className="cursor-pointer" src="/icons/gplus.svg" alt="gplus" />
+                            <Image height={32} width={32} className="cursor-pointer" src="/icons/yt.svg" alt="" />
+                            <Image height={32} width={32} className="cursor-pointer" src="/icons/telegram.svg" alt="" />
+                            <Image height={32} width={32} className="cursor-pointer" src="/icons/sms.svg" alt="" />
                         </div>
                     </div>
                     <div className="mt-4">

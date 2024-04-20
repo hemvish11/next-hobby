@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Testimonial() {
     return (
         <section className="w-full flex flex-col justify-center items-center">
@@ -8,7 +10,7 @@ export default function Testimonial() {
 
                     <div className='flex gap-2 items-center justify-center my-2 lg:my-3'>
 
-                        <img height="42px" width="42px" src="/testimonial.svg" alt="testimonial" />
+                        <Image height={42} width={42} src="/testimonial.svg" alt="testimonial" />
                         <span className="font-semibold text-[18px]/[27px] lg:text-[24px]/[36px] ">Testimonials</span>
                     </div>
 
@@ -23,7 +25,7 @@ export default function Testimonial() {
 
 
                     <div className="flex justify-center gap-6 items-center w-[80%] lg:w-[50%] my-5">
-                        <img height="80px" width="80px" src="/dancer.svg" alt="dancer-img" />
+                        <Image height={80} width={80} src="/dancer.svg" alt="dancer-Image" />
                         <div className="">
                             <p className="text-[#8064A2] text-[16px]/[24px] lg:text-[18px]/[27px] font-bold">Shubha Nagarajan</p>
                             <p className="text-[#0096c8] text-[12px]/[18px] lg:text-[14px]/[21px]">Classical Dancer</p>
@@ -31,11 +33,11 @@ export default function Testimonial() {
                     </div>
 
                     <div className="flex justify-between items-center bg-[#ccc1da] w-[90%] lg:w-[100%] rounded-lg p-4 my-4 ">
-                        <img className="cursor-pointer" height="32px" width="32px" src="/music/play.svg" alt="play-button" />
+                        <Image className="cursor-pointer" height={32} width={32} src="/music/play.svg" alt="play-button" />
 
 
                         <div className="flex items-center justify-center w-[50%] lg:w-[60%] h-[2px]">
-                            <img height="11px" width="11px" src="/music/circle.svg" alt="circle" />
+                            <Image height={11} width={11} src="/music/circle.svg" alt="circle" />
                             <div className="w-[100%] bg-white p-[1px]"></div>
 
                         </div>
@@ -44,7 +46,7 @@ export default function Testimonial() {
 
 
                         <span className="text-xs text-[#8064a2]">0:00</span>
-                        <img height="54px" width="54px" src="/music/avatar.svg" alt="avatar" />
+                        <Image height={54} width={54} src="/music/avatar.svg" alt="avatar" />
                     </div>
 
 

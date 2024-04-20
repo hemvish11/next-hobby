@@ -1,11 +1,11 @@
 import { useState } from "react";
-import SignInSection from "./SignInSection";
+import SignInSection from "../../SignInSection";
 import JoinInSection from "./JoinInSection";
 
-function SignJoin({signInOut}) {
+function SignJoin({ signInOut }) {
     const [signInActive, setSignInActive] = useState(true);
     const [joinInActive, setJoinInActive] = useState(false);
-    
+
 
     return (
         <div className="mt-8">
@@ -33,7 +33,7 @@ function SignJoin({signInOut}) {
             </div>
 
             <div className='my-4'>
-                {signInActive ? <SignInSection signInOut={signInOut}/> : <JoinInSection signInOut={signInOut}/>}
+                {signInActive ? <SignInSection signInOut={signInOut} /> : <JoinInSection signInOut={signInOut} />}
             </div>
         </div>
     )

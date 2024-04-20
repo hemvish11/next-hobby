@@ -21,7 +21,7 @@ function MobileSignJoin({ signInOut, hamburgerClicked }) {
                     }}>
                     Sign In
                 </span>
-                <span className={`${!signInActive ? " text-custom-color hover:text-[#9845ff]" : "text-gray-color hover:text-[#9845ff]"} cursor-pointer`}
+                <span className={`${joinInActive ? " text-custom-color hover:text-[#9845ff]" : "text-gray-color hover:text-[#9845ff]"} cursor-pointer`}
 
                     onClick={() => {
                         setJoinInActive(true);
